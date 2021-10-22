@@ -1,0 +1,78 @@
+body {
+    width: 1500px;
+    background-color: #caa96c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body div {
+    border: 2px solid black;
+}
+
+.header {
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: bisque;
+}
+
+.header h1 {
+    font-size: 75px;
+    color: black;
+}
+
+.header h2 {
+    font-size: 35px;
+    color: #7575aa;
+}
+
+.main {
+    align-items: center;
+    width: 1500px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.photo {
+    float:left;
+    text-align: center;
+    height: 470px;
+    width: 498px;
+    padding-top: 30px;
+    border:none;
+    border-right: 2px solid black
+}
+
+.text {
+    float:right;
+    text-align: center;
+    height: 370px;
+    width: 958px;
+    overflow: auto;
+    padding-top: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:none;
+    border-left: 2px solid black;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+}
+
+.text p {
+    color:#30303f;
+}
+
+.achievements {
+    float:left;
+    text-align: center;
+    background-color: bisque;
+    height: 300px;
+    width: 1500px;
+}
